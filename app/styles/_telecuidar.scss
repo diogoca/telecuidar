@@ -1,0 +1,26 @@
+// Core variables and mixins
+@import "telecuidar/variables";
+@import "telecuidar/mixins";
+
+// Dependencies
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+// @import "telecuidar/fonts"; // loaded from CDN on index.html
+
+// Core CSS
+@import "telecuidar/scaffolding";
+@import "telecuidar/type";
+
+// Components
+@import "telecuidar/navbar";
+@import "telecuidar/buttons";
+
+// Routes
+@import "telecuidar/application";
+@import "telecuidar/index";
+@import "telecuidar/benefits";
+@import "telecuidar/omt";
+@import "telecuidar/how-it-work";
+@import "telecuidar/products";
+@import "telecuidar/contact";
+@import "telecuidar/press";

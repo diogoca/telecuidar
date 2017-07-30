@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-serif !important;
+}
+
+a {
+	font-weight: bold;
+}
+
+ul, ol {
+	line-height: 30px;
+}
+
+ol {
+	padding-left: 20px;
+	counter-reset: olitem;
+
+	li {
+		display: block;
+
+		&:before {
+			margin-right: 5px;
+			content: counter(olitem) ". ";
+			counter-increment: olitem;
+			font-weight: bold;
+		}
+	}
+}
+
+// Sprites
+.sprite {
+	display: inline-block;
+	background: url('/images/sprite.png') no-repeat;
+	text-indent: -999em;
+}
+
+.sprite-doutor {
+	width: 136px;
+	height:127px;
+}
+
+.sprite-console {
+	width: 127px;
+	height: 115px;
+	background-position: 0 -127px;
+}
+
+.sprite-atendente {
+	width: 108px;
+	height:126px;
+	background-position: 0 -242px;
+}
+
+// Loading-slider
+.loading-slider > span {
+	background-color: $brand-primary;
+}

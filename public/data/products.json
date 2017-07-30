@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Pulseira de Emergência",
+      "slug": "pulseira-de-emergencia",
+      "imgSrc": "/images/produtos/pulseira-de-emergencia.jpg",
+      "description": "A pulseira de emergência é um transmissor utilizado pelo usuário inclusive no banho, quando acionado, ativa o console de comunicação e por sua vez a central de atendimento, fazendo assim o contato com as pessoas cadastradas no plano de ação."
+    },
+    {
+      "id": 1,
+      "name": "Pingente de Emergência",
+      "slug": "pingente-de-emergencia",
+      "imgSrc": "/images/produtos/pingente-de-emergencia.jpg",
+      "description": "O pingente de emergência é um transmissor utilizado pelo usuário, inclusive no banho, que quando acionado ativa o console de comunicação e  por sua vez a central de atendimento, fazendo assim o contato com as pessoas cadastradas no plano de ação."
+    },
+    {
+      "id": 2,
+      "name": "Sensor de Queda",
+      "slug": "sensor-de-queda",
+      "imgSrc": "/images/produtos/sensor-de-queda.jpg",
+      "description": "O sensor de queda é um dispositivo que no momento da emergência dispara um sinal para o console de comunicação através de um simples movimento de deslocamento brusco, acionando assim a operação de atendimento."
+    },
+    {
+      "id": 3,
+      "name": "Console de Comunicação",
+      "slug": "console-de-comunicacao",
+      "imgSrc": "/images/produtos/console-de-comunicacao.jpg",
+      "description": "O console de comunicação é um potente aparelho viva voz instalado em uma das dependências da moradia, proporcionando contato imediato com a central de atendimento, acionando assim o sistema de emergência."
+    },
+    {
+      "id": 4,
+      "name": "Aparelho Celular de Emergência",
+      "slug": "aparelho-celular-de-emergencia",
+      "imgSrc": "/images/produtos/aparelho-celular-emergencia.jpg",
+      "description": "O aparelho celular de emergência, possui cobertura em todo território nacional ao ser acionado, faz contato direto com a central de atendimento, acionando assim o sistema de emergência para o respectivo atendimento."
+    },
+    {
+      "id": 5,
+      "name": "Pulseira de Identificação",
+      "slug": "pulseira-de-identificacao",
+      "imgSrc": "/images/produtos/pulseira-de-identificacao.jpg",
+      "description": "A pulseira de identificação, contem um número 0800 para contato com a central de atendimento, outro para atendimento médico 24 horas, bem como o número identificador do usuário. Ela é utilizada para manter contato constante com a central de atendimento, oferecendo assi tranquilidade e segurança para todos."
+    },
+    {
+      "id": 6,
+      "name": "Botão Fixo de Ajuda",
+      "slug": "botao-fixo-de-ajuda",
+      "imgSrc": "/images/produtos/botao-fixo.jpg",
+      "description": "O botão fixo de ajuda, pode ser fixado em vários ambientes, como box de banheiro ou quarto, facilitando assim o acionamento com a central de atendimento."
+    },
+    {
+      "id": 7,
+      "name": "Detector de Fumaça",
+      "slug": "detector-de-fumaca",
+      "imgSrc": "/images/produtos/detector-de-fumacao.jpg",
+      "description": "O detector de fumaça, quando detecta a presença da mesma, emite um forte alarme local de vinte segundos, em seguida envia um sinal digital para o console de comunicação, reportando a informação para a central de atendimento."
+    },
+    {
+      "id": 8,
+      "name": "Detector de Presença",
+      "slug": "detector-de-presenca",
+      "imgSrc": "/images/produtos/detector-de-presenca.jpg",
+      "description": "O detector de presença, pode ser configurado para reportar atividade em algum ambiente. O transmissor envia um sinal para o console de comunicação sempre que detectar movimento. Após um período de tempo caso não receba um sinal, o console  pode disparar um chamado de emergência."
+    },
+    {
+      "id": 9,
+      "name": "Detector de Gás",
+      "slug": "detector-de-gas",
+      "imgSrc": "/images/produtos/detector-de-gas.jpg",
+      "description": "O detector de gás, deve ser instalado próximo ao fogão para que possa proteger o ambiente em caso de vazamento de gás. Sua função é avisar o episódio com uma potente sirene, juntamente com o piscar da lâmpada de emergência."
+    }
+  ]
+}

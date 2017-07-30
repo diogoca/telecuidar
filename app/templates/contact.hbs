@@ -1,0 +1,61 @@
+<div class="container contact">
+
+    <section class="row">
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="page-header">
+                <h2>Fale conosco</h2>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-7">
+
+            {{#if showResponseMessage}}
+                <p class="alert alert-success">Seu e-mail foi enviado com sucesso!</p>
+                
+                <p>Olá <strong>{{model.name}}</strong>, tudo bem?</p>
+                <p>Entraremos em contato com você nos próximos dias úteis.<br />Desde já agradeçemos o seu interesse pelos nossos serviços.</p>
+                <p>Um grande abraço.</p>
+                <p><em>Silvio Alves</em></p>
+            {{/if}}
+
+            {{#if showForm}}
+                <p>Preencha o formulário abaixo:</p>
+                <form {{action 'sendEmail' model on="submit"}} method="post" class="col-lg-11">
+                    <div class="form-group">
+                        {{input type="text" value=model.name class="form-control" required="true" placeholder="Seu nome" autofocus="autofocus"}}
+                    </div>
+
+                    <div class="form-group">
+                        {{input type="email" value=model.email class="form-control" required="true" placeholder="Seu e-mail"}}
+                    </div>
+
+                        <div class="form-group">
+                        {{masked-input type="tel" value=model.phone mask=model.mask.phone guide=false class="form-control" required="true" placeholder="Seu telefone com DDD"}}
+                    </div>
+
+                    <button type="submit" class="btn btn-lg btn-primary"  disabled={{model.isDisabled}}>Enviar</button>
+
+                </form>
+            {{/if}}
+            
+        </div>
+
+        <div class="col-lg-4 col-md-5 center">
+            <h3>Central de Vendas</h3>
+            <p class="phone">
+                <a href="whatsapp://call?number=83988328735">(83) 9 8832-8735</a>
+            </p>
+            <p class="working-hours"><a href="whatsapp://call?number=83988328735"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> Segunda à sexta das 8h as 18h.</p>
+
+            <hr />
+
+            <h3>Central de Monitoramento</h3>
+            <p>Para dúvidas médicas, o telefone exclusivo encontra-se disponível na pulseira OMT.</p>
+            <p>Em caso de emergência acione o botão, atendimento 24 horas por dia.</p>
+        </div>
+
+    </section>
+
+    <hr />
+</div>

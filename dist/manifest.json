@@ -1,0 +1,11 @@
+{
+  "short_name": "Telecuidar",
+  "name": "Telecuidar",
+  "icons": [
+    {
+      "src": "images/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ]
+}

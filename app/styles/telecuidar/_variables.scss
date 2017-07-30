@@ -1,0 +1,38 @@
+// Overrides
+$font-family-sans-serif: 'Open Sans', Arial, sans-serif !default;
+$font-family-serif: 'Montserrat', Arial, sans-serif !default;
+$font-size-base: 16px !default;
+
+//== Components
+//
+$grid-gutter-width: 40px !default; 
+$border-radius-base:  4px !default;
+$padding-base-vertical: 14px !default;
+
+//== Brands
+//
+//##
+$brand-primary: #337ab7 !default; // blue
+
+$brand-white: #fff;
+$brand-black: #000;
+$brand-darker: #444;
+$brand-gray: #ccc;
+$brand-lighter: #e9e9e9;
+$brand-body-color: #818892;
+$brand-selection-color: #f9f6f0;
+$brand-overlay-color: #3b3d40;
+$brand-bg-color: $brand-white;
+
+//== Forms
+//
+//##
+$input-border-focus:  $brand-primary !default;
+$form-group-margin-bottom:       30px !default;
+
+//== Navbar
+//
+//##
+$navbar-height:                    100px !default;
+$navbar-default-bg:                #FFF !default;
+$navbar-default-border:             transparent !default;

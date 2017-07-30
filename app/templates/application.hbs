@@ -1,0 +1,63 @@
+{{loading-slider isLoading=loading duration=250}}
+
+<header id="header">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                {{#link-to 'index' class='navbar-brand'}}
+                    <img class="logo" class="img-responsive" src="/images/logo.png" alt="Telecuidar" width="350" />
+                {{/link-to}}
+            </div>
+
+            <div class="hidden-md hidden-lg">
+                <a href="javascript:void(0)" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-menu" aria-expanded="false">
+                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div id="header-menu" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    {{#link-to 'how-it-work' tagName='li'}} {{#link-to 'how-it-work'}}Como funciona{{/link-to}}{{/link-to}}
+                    {{#link-to 'products' tagName='li'}} {{#link-to 'products'}}Todos os produtos{{/link-to}}{{/link-to}}
+                    {{#link-to 'contact' tagName='li'}} {{#link-to 'contact'}}Fale conosco{{/link-to}}{{/link-to}}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+{{outlet}}
+
+{{#if isNotContactPath}}
+    {{consultant-call currentPath=currentPath}}
+{{/if}}
+
+<footer id="footer" role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <p>
+                    <strong>Telecuidar</strong>
+                    <br />CNPJ: 25.045.874/0001-96
+                    <br /> Telefone: 83 9 8832-8735
+                    <br /> João Pessoa, PB
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-md-push-1 col-md-11 col-xs-12 col-social">
+                    <a class="col-md-3 col-xs-6" href="https://twitter.com/Telecuidar"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
+                    <a class="col-md-3 col-xs-6" href="https://facebook.com/Telecuidar"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+                    <a class="col-md-3 col-xs-6" href="https://plus.google.com/108406851264181937177"><i class="fa fa-2x fa-google-plus" aria-hidden="true"></i></a>
+                    <a class="col-md-3 col-xs-6" href="https://www.youtube.com/channel/UCMMhsg-zzEw53b0r7yZQsYA"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 col-links">
+                <p class="text-right">
+                    {{#link-to 'press'}}Kit de Imprensa{{/link-to}}
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

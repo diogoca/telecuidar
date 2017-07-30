@@ -1,0 +1,25 @@
+.contact {
+
+    .center {
+        .phone a {
+            font-family: $font-family-serif;
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+
+        .working-hours {
+
+            .fa-whatsapp {
+                position: relative;
+                top: 0.1em;
+                margin-right: 2px;
+                padding: 2px 5px;
+                border-radius: 15%;
+                color: #fff;
+                background-color: #25d366;
+            }
+        }
+
+    }
+
+}

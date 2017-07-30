@@ -1,0 +1,46 @@
+.how-it-work {
+
+    .steps {
+        counter-reset: my-steps-counter;
+
+        dt {
+            font-size: 1.1em;
+            font-weight: bold;
+
+            &:before {
+                position: relative;
+                top: 4px;
+                margin: 0 12px 0 0;
+                color: #CCC;
+                font-size: 30px;
+                content: counter(my-steps-counter, decimal);
+                counter-increment: my-steps-counter;
+            }
+        }
+
+        dd {
+            margin: 0 0 20px 32px;
+        }
+    }
+
+    .concepts {
+        text-align: center;
+        h3 {
+            margin-bottom: 2.5em;
+            font-size: 1em;
+
+            &:last-child-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .ilustration {
+        img {
+            @media (min-width: $screen-md) {
+                margin: auto;
+            }
+        }
+    }
+
+}

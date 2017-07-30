@@ -1,0 +1,23 @@
+.container .row:first-child .page-header {
+    @media (max-width: $screen-xs){
+        margin-top: 0;
+    }
+}
+
+.page-bg {
+    margin-top: -23px;
+    background: url('/images/beneficios/familia.png') center 30%;
+    background-size: cover;
+    border-top: #eee solid 1px;
+    border-bottom: #eee solid 1px;
+    height: 300px;
+}
+
+.page-subheader h2 {
+    padding-top: 12px;
+    color: rgba(0, 0, 0, 0.36);
+    font-weight: normal;
+    font-family: $font-family-sans-serif !important;
+    line-height: 45px;
+    letter-spacing: 1px;
+}

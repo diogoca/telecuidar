@@ -1,0 +1,51 @@
+.home {
+    .anatel {
+        span {
+            float: left;
+            margin: 18px 10px 0 0;
+        }
+    }
+
+    .testimony-section {
+
+        .media {
+            @media (max-width: $screen-xs) {
+                display: inline-block;
+                margin-bottom: 30px;
+            }
+        } 
+    
+        .media-left {
+            @media (max-width: $screen-xs) {
+                display: inline-block;
+                padding-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .partner-section {
+        .your-company {
+
+             @media (max-width: $screen-xs) {
+                padding-top: 22px;
+                padding-bottom: 22px;
+            }
+
+             @media (min-width: $screen-md) {
+                padding-top: 12px;
+                height: 130px;
+            }
+
+             @media (min-width: $screen-lg) {
+                padding-top: 22px;
+                height: 160px;
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+}

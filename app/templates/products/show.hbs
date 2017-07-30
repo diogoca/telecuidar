@@ -1,0 +1,25 @@
+<div class="container product-show">
+
+    <section class="row">
+        <div class="col-sm-6 col-xs-12">
+            <img src="{{currentProduct.imgSrc}}" alt="{{currentProduct.name}}" class="img-responsive img-rounded" />
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="page-header">
+                <h2>{{currentProduct.name}}<br /><small>Produtos</small></h2>
+            </div>
+
+            <p class="product-description">{{currentProduct.description}}</p>
+
+            <div class="col-sm-6 col-xs-6">
+                {{#link-to 'products.show' prevProduct.slug disabled=isPrevDisabled rel="prev" class="btn btn-link btn-outline btn-lg"}}<i class="fa fa-arrow-circle-left"></i> Anterior{{/link-to}}
+            </div>
+
+             <div class="col-sm-6 col-xs-6 text-right">
+                {{#link-to 'products.show' nextProduct.slug disabled=isNextDisabled rel="next" class="btn btn-link btn-outline btn-lg"}}Próximo <i class="fa fa-arrow-circle-right"></i>{{/link-to}}
+            </div>
+        </div>
+    </section>
+
+</div>

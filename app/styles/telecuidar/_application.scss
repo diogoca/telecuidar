@@ -1,0 +1,48 @@
+#footer {
+    margin-bottom: 20px;
+}
+
+#consultant-call {
+    margin-top: 30px;
+    border-radius: 0;
+    border-right: 0;
+    border-left: 0;
+
+    h4 {
+        letter-spacing: 0.05em;
+        color: #838383;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+}
+
+#footer {
+
+    .col-social, .col-links {
+        @media (min-width: $screen-md) {
+            margin-top: 25px;
+        }
+    }
+
+    .col-social a {
+        color: #CCC;
+
+         @media (max-width: $screen-xs) {
+             margin-bottom: 20px;
+         }
+
+         &:hover {
+             color: $brand-primary;
+         }
+    }
+
+    .col-links {
+        p {
+            @media (max-width: $screen-md) {
+                text-align: left;
+            }
+        }
+    }
+}

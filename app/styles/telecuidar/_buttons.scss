@@ -1,0 +1,10 @@
+.btn {
+    text-transform: uppercase;
+    font-weight: bold !important;
+    box-shadow: rgba(187, 187, 187, 0.66) 2px 2px 2px;
+
+    @media (max-width: $screen-sm) {
+        width: 100%;
+        white-space: normal !important;
+    }
+}
